@@ -7,7 +7,7 @@ def unsafe?(speed)
 end
 
 
-
+# #not_safe is a version of #unsafe? using the ternary operator `? :`
 def not_safe?(speed)
 	speed < 40 || speed > 60 ? true : false
 end
